@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Analyst Portfolio</title>
+    <style>
+        /* General Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('portfolioBackground.png') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            color: #f39c12;
+        }
+
+        a {
+            text-decoration: none;
+            color: #f39c12;
+        }
+
+        a:hover {
+            color: #fff;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent navbar */
+            padding: 1rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            margin: 0 1rem;
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+            background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent content background */
+            border-radius: 8px; /* Optional rounded corners for better design */
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .card {
+            background-color: rgba(34, 34, 34, 0.9);
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        img.small-img {
+            width: 150px; /* Resize images */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            margin: 1rem 0;
+        }
+
+        button {
+            background-color: #f39c12;
+            color: #000;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+
+        #contact div a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1rem;
+            color: #f39c12;
+            font-weight: bold;
+        }
+    </style>
+  
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#jobs">Job Simulations</a>
+        <a href="#projects">Projects</a>
+        <a href="#certifications">Certifications</a>
+    </nav>
+
+    <!-- About Me Section -->
+    <div id="about" class="container section">
+        <h1>Devyani Mahalle</h1>
+        <p>An analytical professional with 1.5 years of experience in embedded software development and expertise in data analysis, AI, and advanced analytics. Skilled in Python, SQL/NoSQL, Power BI, Tableau, and cloud platforms like AWS and Google Cloud, I specialize in transforming data into actionable insights.
+
+I’ve worked in integrating technology stacks, automating processes, and optimizing software performance. Through simulations with JP Morgan Chase & Co., BCG X, and PwC, I demonstrated skills in data visualization, predictive modeling, and KPI analysis, achieving measurable outcomes like an 85% accuracy rate in customer churn prediction.
+
+Whether it’s building dashboards, developing AI models, or analyzing trends, I deliver solutions that drive impact. Let’s collaborate to bring clarity and innovation to your data-driven projects. a passionate Data Analyst with expertise in AI. I thrive on solving complex problems with data-driven solutions. My goal is to transform raw data into meaningful insights that drive business success.</p>
+        
+        <img src="about_Me banner.png" alt="Your Photo" class="small-img">
+    </div>
+
+    <!-- Skills Section -->
+    <div id="skills" class="container section">
+        <h1>Skills</h1>
+        <div class="card">
+            <h2>Python</h2>
+            <p>Data manipulation, AI modeling, and automation with libraries like Pandas, NumPy, and Matplotlib.</p>
+            <img src="Python_with GenAI.png" alt="Python Certification" class="small-img">
+        </div>
+        <div class="card">
+            <h2>Power BI</h2>
+            <p>Create interactive dashboards for actionable business insights.</p>
+            <img src="PowerBI.png" alt="Power BI Certification" class="small-img">
+        </div>
+        <div class="card">
+            <h2>Tableau</h2>
+            <p>Create interactive dashboards for actionable business insights.</p>
+            <img src="Tableau.png" alt="Tableau Certification" class="small-img">
+        </div>
+        <div class="card">
+            <h2>MySQL</h2>
+            <p>Structured data querying and database management.</p>
+            <img src="MySQL.png" alt="MySQL Certification" class="small-img">
+        </div>
+        <div class="card">
+            <h2>Microsoft Excel</h2>
+            <p>Advanced Excel techniques for data analysis.</p>
+            <img src="AdvExcel.png" alt="Excel Certification" class="small-img">
+        </div>
+    </div>
+
+    <!-- Job Simulations Section -->
+    <div id="jobs" class="container section">
+        <h1>Job Simulations</h1>
+        <div class="card">
+            <h2>JPMorgan Chase - CDAP</h2>
+            <p>Completed a virtual simulation analyzing stock trends.</p>
+            <a href="https://github.com/dMahlley/Analyst/tree/master/Loan-Mortgage%20Data%20Analysis" target="_blank">View Repository</a>
+        </div>
+        <div class="card">
+            <h2>BCG X Data Science</h2>
+            <p>Analyzed customer churn and retention rates.</p>
+            <a href="https://github.com/dMahlley/Analyst/tree/master/Data%20Scientist-Power%20Co" target="_blank">View Repository</a>
+        </div>
+        <div class="card">
+            <h2>PWC Power BI</h2>
+            <p>Analyzed customer churn and retention rates.</p>
+            <a href="https://github.com/dMahlley/Analyst/tree/master/PowerBI" target="_blank">View Repository</a>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects" class="container section">
+        <h1>Projects</h1>
+        <div class="card">
+            <h2>Energy Consumption - Tableau</h2>
+            <p>Interactive dashboard analyzing sales performance and trends.</p>
+            <a href="https://github.com/dMahlley/Analyst/blob/master/Energy_Consummation_Analysis.twb" target="_blank">View Repository</a>
+        </div>
+        <div class="card">
+            <h2>Books Data set</h2>
+            <p>Displaying the analysis of books dataset in tableau.</p>
+            <a href="https://github.com/dMahlley/Analyst/blob/master/Book1.twb" target="_blank">View Repository</a>
+        </div>
+    </div>
+
+    <!-- Certifications Section -->
+    <div id="certifications" class="container section">
+        <h1>Certifications</h1>
+        <div class="card">
+            <h2>CDAP</h2>
+            <p>Issued by: Forage | Completion Date: October 2024</p>
+            <img src="CDAP_Certificate.png" alt="CDAP certification" class="small-img">
+        </div>
+        <div class="card">
+            <h2>BCG X -Data Scientist</h2>
+            <p>Issued by: Forage  | Completion Date: October 2024</p>
+            <img src="BCGX_DS.png" alt="BCG X- DS Certification" class="small-img">
+        </div>
+        <div class="card">
+            <h2>PwC Power BI</h2>
+            <p>Issued by: Forage | Completion Date: October 2024</p>
+            <img src="PwC_PowerBI.png" alt="PwC PowerBI Certification" class="small-img">
+        </div>
+    </div>
+    
+    <!-- Contact Section -->
+<div id="contact" class="container section" style="text-align: center; margin-top: 3rem;">
+    <h1>Contact Me</h1>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 20px; flex-wrap: wrap;">
+        <div>
+            <a href="https://www.linkedin.com/in/devyani-mahalle-085097258/" target="_blank">
+                <img src="linkedIn.png" alt="LinkedIn Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+                LinkedIn
+            </a>
+        </div>
+        <div>
+            <a href="mailto:mahlleydevyani@gmail.com">
+                <img src="mailId.png" alt="Email Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+                Email
+            </a>
+        </div>
+        <div>
+            <a href="tel:+919689071987">
+                <img src="contact.png" alt="Phone Logo" style="width: 40px; height: 40px; margin-right: 10px;">
+                Phone
+            </a>
+        </div>
+    </div>
+</div>
+
+
+    <!-- JavaScript -->
+    <script>
+        console.log("Welcome to my portfolio website!");
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
